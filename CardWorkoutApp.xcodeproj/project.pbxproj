@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AF2F6CB72961C0E70041723B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2F6CB62961C0E70041723B /* AppDelegate.swift */; };
 		AF2F6CB92961C0E70041723B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2F6CB82961C0E70041723B /* SceneDelegate.swift */; };
-		AF2F6CBB2961C0E70041723B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2F6CBA2961C0E70041723B /* ViewController.swift */; };
 		AF2F6CBE2961C0E70041723B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2F6CBC2961C0E70041723B /* Main.storyboard */; };
 		AF2F6CC02961C0E80041723B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2F6CBF2961C0E80041723B /* Assets.xcassets */; };
 		AF2F6CC32961C0E80041723B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2F6CC12961C0E80041723B /* LaunchScreen.storyboard */; };
+		AF2F6CCB2961C83E0041723B /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2F6CCA2961C83E0041723B /* CardSelectionVC.swift */; };
+		AFE1CC4A2961E72A00155C4A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE1CC492961E72A00155C4A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF2F6CB32961C0E70041723B /* CardWorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2F6CB62961C0E70041723B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2F6CB82961C0E70041723B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF2F6CBA2961C0E70041723B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF2F6CBD2961C0E70041723B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF2F6CBF2961C0E80041723B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2F6CC22961C0E80041723B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2F6CC42961C0E80041723B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2F6CCA2961C83E0041723B /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		AFE1CC492961E72A00155C4A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				AF2F6CB62961C0E70041723B /* AppDelegate.swift */,
 				AF2F6CB82961C0E70041723B /* SceneDelegate.swift */,
-				AF2F6CBA2961C0E70041723B /* ViewController.swift */,
+				AF2F6CCA2961C83E0041723B /* CardSelectionVC.swift */,
+				AFE1CC492961E72A00155C4A /* Card.swift */,
 				AF2F6CBC2961C0E70041723B /* Main.storyboard */,
 				AF2F6CBF2961C0E80041723B /* Assets.xcassets */,
 				AF2F6CC12961C0E80041723B /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2F6CBB2961C0E70041723B /* ViewController.swift in Sources */,
 				AF2F6CB72961C0E70041723B /* AppDelegate.swift in Sources */,
 				AF2F6CB92961C0E70041723B /* SceneDelegate.swift in Sources */,
+				AF2F6CCB2961C83E0041723B /* CardSelectionVC.swift in Sources */,
+				AFE1CC4A2961E72A00155C4A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
